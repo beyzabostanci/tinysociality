@@ -1,22 +1,20 @@
-import { AuthContextProvider } from "context/AuthContext";
+//import "@/styles/globals.css";
+import Card from "../components/Card/Card";
+import "../styles/globals.css";
 import Head from "next/head";
 
 
-import "@/styles/globals.css";
-
-function MyApp({ Component, pageProps }) {
+function MyApp() {
     return (
         <>
-            <Head>
-                <title>Students Store</title>
-                <link rel='icon' href='/favicon.png' />
-            </Head>
+          <Head>
+                <title>Sociality</title>
 
-            <AuthContextProvider>
-                <Component {...pageProps} />
-            </AuthContextProvider>
+            </Head>
+<p>this page is working</p>
+<Card />
         </>
     );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;
