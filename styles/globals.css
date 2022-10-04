@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+  .accordion .accordion-item .title {
+    background-color: #2A2F33;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    text-transform: uppercase;
+  }
+
+  .accordion .accordion-item .title:after {
+    content: '\2795';
+    font-size: 12px;
+    float: right;
+    margin-left: 5px;
+  }
+  .accordion .accordion-item .panel {
+    color: #2A2F33;
+    max-height: 0;
+    -webkit-transition: max-height 0.15s ease-out;
+    -o-transition: max-height 0.15s ease-out;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+  }
+  .accordion .accordion-item.active .title {
+    background-color: #F55661;
+  }
+  .accordion .accordion-item.active .title:after {
+    color: #F55661;
+    content: '\2796';
+  }
+  .accordion .accordion-item.active .panel {
+    color:azure;
+    max-height: 500px;
+    -webkit-transition: max-height 0.25s ease-in;
+    -o-transition: max-height 0.25s ease-in;
+    transition: max-height 0.25s ease-in;
+  }

@@ -1,8 +1,8 @@
-//import "@/styles/globals.css";
-import Card from "../components/Card/Card";
 import "../styles/globals.css";
+//import Card from "../components/Card/Card";
 import Head from "next/head";
-
+import Menu from "../components/Menu";
+//import Sidebar from "../components/Sidebar";
 
 function MyApp() {
     return (
@@ -11,8 +11,11 @@ function MyApp() {
                 <title>Sociality</title>
 
             </Head>
-<p>this page is working</p>
-<Card />
+            <div className="flex flex-row">
+<Menu />
+{/*<Sidebar />*/}
+</div>
+{/*<Card />*/}
         </>
     );
 }
