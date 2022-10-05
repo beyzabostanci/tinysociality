@@ -6,8 +6,10 @@ module.exports = {
     extend: {
       colors: {
         green: "#3AC183",
-        orange: "#87BF38",
+        orange: "#F7BF38",
         backgr: "#858788",
+        generalbg:"F5F7F8",
+        blues: "8BC3F4",
         greys: "#ACACAC",
         errors: "#FB6450",
         menu: "#393D42",
