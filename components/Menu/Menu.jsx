@@ -1,10 +1,11 @@
 import React from 'react';
 import { Accordion, AccordionItem } from 'react-light-accordion';
+//import Link from 'next/link';
 
 export default function Menu() {
     return (
         <>
-<div className='w-72 h-screen bg-menu border'>
+<div className='w-[277px] h-screen bg-menu font-Raleway'>
     <Accordion atomic={true}>
     <div>
       <AccordionItem  title="Notifications">
@@ -41,7 +42,7 @@ const PublishContent = () => (
     <>
     <div className='ml-8 '>
     <li className='p-4  hover:text-pickedmenu'><Button name="Compose"/></li>
-    <li className='p-4  hover:text-pickedmenu '><Button name="Feed"/></li>
+    <li className='p-4  hover:text-pickedmenu'> <Button name="Feed"/> </li>
     </div>
     </>
 )
