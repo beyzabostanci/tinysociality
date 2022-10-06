@@ -1,10 +1,11 @@
 import * as React from "react";
+import Image from "next/image";
 
 export default function Layout (){
     return(
     <>
-    <div className="h-screen bg-slate-100">
-<div className=" flex h-24 ml-16  justify-between">
+    <div className="h-[90px] w-[1685px] ">
+<div className=" flex h-24 ml-[60px]  justify-between">
     <div className="flex ">
     <div className="flex flex-row  mt-10 mr-5 items-center ">
 <div className="rounded-full h-4 w-4 bg-greys mr-2 "></div>
@@ -31,7 +32,7 @@ export default function Layout (){
 <p>Notes</p>
 </div>
 </div>
-<button className="rounded-full border bg-black h-20 w-20 mt-10 ml-96 mr-16"></button>
+<button className="rounded-full border overflow-hidden bg-black h-[75px] w-[75px] mt-10 ml-96 mr-16"><Image src="/images/xxx.jpg" alt="" width={75} height={75}/></button>
 </div>
 </div>
     </>
