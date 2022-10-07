@@ -13,6 +13,7 @@ function MyApp() {
         <>
           <Head>
                 <title>Sociality</title>
+                <link rel="icon" href="/images/indir.png"></link>
             </Head>
             <div className="flex flex-row bg-generalbg">
                 <div>
