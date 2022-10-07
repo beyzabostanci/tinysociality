@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/*accordion menu style*/
   .accordion .accordion-item .title {
     background-color: #393D42;
     color: rgb(255, 255, 255);
@@ -47,10 +47,7 @@
     transition: max-height 0.25s ease-in;
   }
 
-.pickedcompany{
+/*companies click opacity*/
+.com:focus{
   opacity: 1;
-}
-
-leftoutcompany{
-  opacity: 0.7;
-}
+  }

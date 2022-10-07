@@ -4,8 +4,8 @@ import * as React from "react";
 export default function Card() {
 return (
 <>
-<div className="w-[492px] mr-[42px] rounded shadow-lg flex flex-row h-[565px]">
-<div className="w-32 bg-pink-500 border items-center justify-center flex">
+<div className="w-[492px] mr-[42px] rounded-lg overflow-hidden  shadow-lg flex flex-row h-[565px]">
+<div className="w-32 bg-pink-500  items-center justify-center flex">
 <Image width={30} height={30} src="/images/xxx.jpg" alt=""  />
 </div>
 <div className="px-5 py-4 border flex flex-col">
