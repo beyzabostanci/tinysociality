@@ -1,8 +1,8 @@
-import { set } from "date-fns/esm";
+//import { set } from "date-fns/esm";
 import Image from "next/image";
-import { useState } from "react";
+//import { useState } from "react";
 
-export default function Company ({button}){
+export default function Company (){
 
     return(
         <>

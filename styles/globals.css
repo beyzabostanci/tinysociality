@@ -51,3 +51,11 @@
 .com:focus{
   opacity: 1;
   }
+
+  /* clicked button*/
+  .bttn:focus{
+    color: #F55661
+  }
+  .bttn:visited{
+    color: #F55661;
+  }

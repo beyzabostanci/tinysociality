@@ -15,7 +15,7 @@ export default function AccordionMenu() {
       <AccordionItem  title="Notifications">
 
       </AccordionItem>
-      
+
 </div>
 <div>
       <AccordionItem title="Summary">
@@ -53,8 +53,8 @@ const PublishContent = () => (
     <>
     <div className='bg-menubuttons'>
     <div className='ml-8  '>
-    <li className='p-4  hover:text-pickedmenu'><Button name="Compose"/></li>
-    <li className='p-4  hover:text-pickedmenu'> <Button name="Feed"/> </li>
+    <li className='p-4 hover:text-pickedmenu'><Button name="Compose"/></li>
+    <li className='p-4 focus:text-pickedmenu hover:text-pickedmenu'> <Button name="Feed"/> </li>
     </div>
     </div>
     </>
