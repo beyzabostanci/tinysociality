@@ -1,9 +1,9 @@
-import Layout from "../components/layout/Layout";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Page(){
     return(
         <>
-        <Layout />
+        <Navbar />
         </>
     )
 }

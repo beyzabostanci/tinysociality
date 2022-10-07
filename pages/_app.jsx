@@ -1,11 +1,11 @@
 import "../styles/globals.css";
 //import Card from "../components/Card/Card";
 import Head from "next/head";
-import Menu from "../components/Menu";
-import Sidebar from "../components/Sidebar";
+import AccordionMenu from "../components/Menu";
+import Company from "../components/Company";
 //import Layout from "../components/layout/Layout";
 import Listing from "../components/Listing/Listing";
-import Layout from "../components/layout/Layout";
+import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
 
 function MyApp() {
@@ -20,12 +20,12 @@ function MyApp() {
 <Image src="/images/socialitylogo.png" alt="logo" width={190} height={37} />
                 </div>
             <div className="flex flex-row">
-<Sidebar />
-<Menu />
+<Company />
+<AccordionMenu />
 </div>
 </div>
 <div className="flex flex-col">
-<Layout />
+<Navbar />
 <Listing />
 </div>
 </div>
