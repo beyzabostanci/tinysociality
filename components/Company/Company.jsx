@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-export default function Sidebar (){
+export default function Company (){
     const [opacity, setOpacity] = useState(0)
     const buttonHandler = () => {
         const elem = document.querySelectorAll(".faded");

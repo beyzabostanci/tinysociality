@@ -2,7 +2,7 @@ import React from 'react';
 import { Accordion, AccordionItem } from 'react-light-accordion';
 //import Link from 'next/link';
 
-export default function Menu() {
+export default function AccordionMenu() {
     return (
         <>
 <div className='w-[277px] h-screen bg-menu font-Raleway'>

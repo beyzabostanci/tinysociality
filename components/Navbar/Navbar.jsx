@@ -1,7 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-export default function Layout (){
+export default function Navbar (){
     return(
     <>
     <div className="h-[90px] w-[1685px] ">
