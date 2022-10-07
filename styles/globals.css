@@ -47,3 +47,10 @@
     transition: max-height 0.25s ease-in;
   }
 
+.pickedcompany{
+  opacity: 1;
+}
+
+leftoutcompany{
+  opacity: 0.7;
+}
