@@ -4,9 +4,11 @@ import Head from "next/head";
 import AccordionMenu from "../components/Menu";
 import Company from "../components/Company";
 //import Layout from "../components/layout/Layout";
-import Listing from "../components/Listing/Listing";
+//import Listing from "../components/Listing/Listing";
 import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
+import Cards from "../components/Card/Cards";
+import Fallback from "../components/Fallback/Fallback";
 
 function MyApp() {
     return (
@@ -27,7 +29,7 @@ function MyApp() {
 </div>
 <div className="flex flex-col">
 <Navbar />
-<Listing />
+<Cards />
 </div>
 </div>
         </>
