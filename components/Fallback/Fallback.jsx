@@ -13,6 +13,8 @@ export default function Fallback({ src, fallbackSrc= fallback.src, ...rest }) {
     <Image
       {...rest}
       src={imgSrc}
+      width={370}
+      height={320}
       alt="noimage"
       onLoadingComplete={(result) => {
         if (result.naturalWidth === 0) {

@@ -1,2 +1,2 @@
-import Menu from "./AccordionMenu";
-export default Menu;
+import AccordionMenu from "./AccordionMenu";
+export default AccordionMenu;

@@ -10,7 +10,7 @@ export default function Company (){
     <button className="w-[50px] h-[50px]  overflow-hidden rounded-lg hover:opacity-100 com transition-opacity opacity-20 mt-[12px] mb-[17px]"><Image src="/images/company1.png" width={"70px"} height={"70px"}  alt="company1" /></button>
     <button  className="w-[50px] h-[50px]  overflow-hidden rounded-lg hover:opacity-100 com transition-opacity opacity-20 mb-[17px] bagde"><Image src="/images/company99.png" width={"70px"} height={"70px"} alt="company1" />
     </button>
-    <span class="inline-flex absolute justify-center items-center ml-[40px] w-5 mt-[70px] h-5 text-xs text-center font-semibold bg-noti text-white rounded-full">
+    <span className="inline-flex absolute justify-center items-center ml-[40px] w-5 mt-[70px] h-5 text-xs text-center font-semibold bg-noti text-white rounded-full">
     99
   </span>
     <button  className="w-[50px] h-[50px]  overflow-hidden rounded-lg hover:opacity-100 com transition-opacity opacity-20 mb-[17px]"><Image src="/images/company3.png" width={"70px"} height={"70px"}  alt="company1" /></button>
