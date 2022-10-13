@@ -1,19 +1,19 @@
 import "../styles/globals.css";
-//import Card from "../components/Card/Card";
 import Head from "next/head";
 import AccordionMenu from "../components/Menu";
 import Company from "../components/Company";
-//import Layout from "../components/layout/Layout";
-import Listing from "../components/Listing/Listing";
 import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
+import Posts from "../components/Posts/Posts";
+//import Cards from "../components/Card/Cards";
+//import Fallback from "../components/Fallback/Fallback";
 
 function MyApp() {
     return (
         <>
           <Head>
                 <title>Sociality</title>
-                <link rel="icon" href="/images/indir.png"></link>
+                <link rel="icon" href="/images/socialitytablogo.png"></link>
             </Head>
             <div className="flex flex-row bg-generalbg">
                 <div>
@@ -27,7 +27,7 @@ function MyApp() {
 </div>
 <div className="flex flex-col">
 <Navbar />
-<Listing />
+<Posts />
 </div>
 </div>
         </>
