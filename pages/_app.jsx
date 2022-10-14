@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
 import Posts from "../components/Posts/Posts";
 //import Cards from "../components/Card/Cards";
-//import Fallback from "../components/Fallback/Fallback";
+import Fallback from "../components/Fallback/Fallback";
 
 function MyApp() {
     return (

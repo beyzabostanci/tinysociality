@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import fallback from "/public/images/no-post-image.png"
+//import no-post-image from "/public/images/no-post-image.png"
+
+{/*const fallback = require("/public/images/no-post-image.png")
 
 export default function Fallback({ src, fallbackSrc= fallback.src, ...rest }) {
   const [imgSrc, set_imgSrc] = useState(src);
@@ -27,4 +29,26 @@ export default function Fallback({ src, fallbackSrc= fallback.src, ...rest }) {
       }}
     />
   );
+}*/}
+
+
+export default function Fallback  ({ src, ...rest }) {
+  const [imgSrc, setImgSrc] = useState(src)
+
+  useEffect(() => {
+    setImgSrc(src)
+  }, [src])
+
+  return (
+    <Image
+    alt=""
+    width={370}
+    height={320}
+      {...rest}
+      src={imgSrc ? imgSrc : '/images/no-post-image.png'}
+      onError={() => {
+        setImgSrc('/images/no-post-image.png')
+      }}
+    />
+  )
 }
